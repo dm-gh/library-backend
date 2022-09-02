@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verbs",
+  "info": {
+    "singularName": "verb",
+    "pluralName": "verbs",
+    "displayName": "Verb"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "trans": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}
