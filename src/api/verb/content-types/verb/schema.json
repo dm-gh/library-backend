@@ -4,7 +4,8 @@
   "info": {
     "singularName": "verb",
     "pluralName": "verbs",
-    "displayName": "Verb"
+    "displayName": "Verb",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -22,6 +23,22 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "group": {
+      "type": "enumeration",
+      "enum": [
+        "Ia",
+        "Ib",
+        "II",
+        "III",
+        "IV",
+        "Va",
+        "Vb",
+        "VI",
+        "individual",
+        "normal"
+      ],
+      "default": "normal"
     }
   }
 }
