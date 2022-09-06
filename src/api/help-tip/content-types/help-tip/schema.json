@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "help_tips",
+  "info": {
+    "singularName": "help-tip",
+    "pluralName": "help-tips",
+    "displayName": "Help Tip"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

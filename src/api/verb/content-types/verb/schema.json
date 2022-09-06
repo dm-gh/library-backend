@@ -39,6 +39,9 @@
         "normal"
       ],
       "default": "normal"
+    },
+    "info": {
+      "type": "richtext"
     }
   }
 }
