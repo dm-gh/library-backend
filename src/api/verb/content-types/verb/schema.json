@@ -42,6 +42,9 @@
     },
     "info": {
       "type": "richtext"
+    },
+    "tags": {
+      "type": "text"
     }
   }
 }
